@@ -1,12 +1,7 @@
-# Dotfiles
+![Platform_&_OS](https://img.shields.io/badge/-Linux%20(Ubuntu%2024.04)-E95420)
+# Dotfiles  
 
-![Tools](https://img.shields.io/badge/Tools-modern%20CLI-blue)
-![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25)
-![Platform](https://img.shields.io/badge/Platform-Linux%20(Ubuntu%2024.04)-E95420)
-
----
-
-## :package: Quick Installation
+## :white_medium_square: Quick Installation
 
 ```bash
 # Clone the repository
@@ -23,8 +18,14 @@ chmod +x install.sh
 ```
 ---
 
-## :memo: Post Installation
+## :white_medium_square: Post Installation
 ```bash
 # Reload your terminal:
 source ~/.bashrc
 ```
+---
+
+## Demo
+![image](./image)
+
+> Edit the file in `bash` before installation to suit your preferences
