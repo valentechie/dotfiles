@@ -1,9 +1,9 @@
 ![Platform_&_OS](https://img.shields.io/badge/-Linux%20(Ubuntu%2024.04)-E95420)
-# Dotfiles  
-
-## :white_medium_square: Quick Installation
+# Dotfiles
 
 ```bash
+#--------------------------------
+# Quick Installation
 # Clone the repository
 git clone git@github.com:valentechie/dotfiles.git
 
@@ -15,11 +15,9 @@ chmod +x install.sh
 
 # Run the installation script
 ./install.sh
-```
----
 
-## :white_medium_square: Post Installation
-```bash
+#--------------------------------
+# Post Installation
 # Reload your terminal:
 source ~/.bashrc
 ```
