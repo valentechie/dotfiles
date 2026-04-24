@@ -1,5 +1,5 @@
 ![Platform_&_OS](https://img.shields.io/badge/-Linux%20(Ubuntu%2024.04)-E95420)
-# Dotfiles
+# :penguin: My Personal Linux Dotfiles
 
 ```bash
 #--------------------------------
@@ -23,7 +23,5 @@ source ~/.bashrc
 ```
 ---
 
-## Demo
+## Preview
 ![image](./image)
-
-> Edit the file in `bash` before installation to suit your preferences
