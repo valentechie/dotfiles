@@ -3,8 +3,7 @@
 
   // Logo on the left in Fastfetch
   "logo": {
-    "type": "builtin",
-    "source": "linux_small",
+    "source": "~/.config/fastfetch/ascii.txt",
     "color": {
       "1": "magenta",
       "2": "white"
