@@ -1,44 +1,64 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
 
-  // Logo on the left in Fastfetch
+  /* Logo configuration */
   "logo": {
+    "type": "file",
     "source": "~/.config/fastfetch/ascii.txt",
+    "padding" : {
+      "right": 4
+    },
     "color": {
-      "1": "magenta",
+      "1": "green",
       "2": "white"
     }
   },
 
+  /* Display settings */
+  "display": {
+
+  },
+
+  /* Modules to display */
   "modules": [
-    "title",
+    {
+      "type": "title",
+      "format": "valentechie@{user-name} "
+    },
+
     "separator",
     "os",
     "host",
     "kernel",
     "uptime",
-    "packages",
     "shell",
-    "display",
+    // "display", - screen resolution
     "de",
-    "wm",
-    "wmtheme",
-    "theme",
-    "icons",
-    "font",
-    "cursor",
     "terminal",
-    "terminalfont",
     "cpu",
     "gpu",
     "memory",
-    "swap",
     "disk",
-    "localip",
     "battery",
-    "poweradapter",
-    "locale",
     "break",
-    "colors"
+
+    {
+      "type": "colors",
+      "block": {
+        "width": 3,
+        "height":1
+      },
+
+      "colors": [
+        "black",
+        "red",
+        "green",
+        "yellow",
+        "blue",
+        "magenta",
+        "cyan",
+        "white"
+      ]
+    }
   ]
 }
