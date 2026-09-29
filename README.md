@@ -31,4 +31,4 @@ source ~/.bashrc
 ---
 
 ## Preview
-![image](./preview)
+![image](./preview.png)
