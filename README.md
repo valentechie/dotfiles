@@ -1,27 +1,34 @@
 ![Platform_&_OS](https://img.shields.io/badge/-Linux%20(Ubuntu%2024.04)-E95420)
-# :penguin: My Personal Linux Dotfiles
+
+## Fastfetch Setup
 
 ```bash
-#--------------------------------
-# Quick Installation
-# Clone the repository
-git clone git@github.com:valentechie/dotfiles.git
+#-------------------------------
+# 1. Install Fastfetch
+curl -LO https://github.com/fastfetch-cli/fastfetch/releases/latest/download/fastfetch-linux-amd64.deb
+sudo apt install ./fastfetch-linux-amd64.deb
 
-# Navigate into the directory
-cd ~/dotfiles
+#-------------------------------
+# 2. Generate configuration file
+fastfetch --gen-config
 
-# Make the installer executable
-chmod +x install.sh
+#-------------------------------
+# 3. Edit configuration
+code ~/.config/fastfetch/config.jsonc
+# If you don't use VS Code, open with:
+nano ~/.config/fastfetch/config.jsonc
 
-# Run the installation script
-./install.sh
+#-------------------------------
+# 4. Run Fastfetch on terminal startup
+# Add this line to your .bashrc:
+fastfetch
 
-#--------------------------------
-# Post Installation
-# Reload your terminal:
+#-------------------------------
+# 5. Reload terminal
 source ~/.bashrc
 ```
+
 ---
 
 ## Preview
-![image](./image)
+![image](./preview)
