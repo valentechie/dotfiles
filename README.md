@@ -28,7 +28,6 @@ fastfetch
 source ~/.bashrc
 ```
 
----
 
 ## Preview
 ![image](./preview.png)
